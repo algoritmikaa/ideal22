@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #e8f5e9;
+    color: #1b3a2f;
+}
+
+header {
+    background-image: linear-gradient(90deg, #2e7d32, #66bb6a);
+    text-align: center;
+    padding: 30px;
+}
+
+.header-box {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+header a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+header a:hover {
+    background-color: #43a047;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.about,
+.schedule,
+.promo,
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about img {
+    width: 80%;
+    border-radius: 16px;
+}
+
+.courses {
+    text-align: center;
+}
+
+.card {
+    width: 28%;
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 35px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card:hover {
+    background-color: #dcedc8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+td {
+    border: 2px solid #81c784;
+    padding: 12px;
+    text-align: center;
+}
+
+tr:first-child td {
+    background-color: #2e7d32;
+    color: white;
+}
+
+.promo {
+    background-image: linear-gradient(90deg, #fdd835, #fff176);
+}
+
+.promo span {
+    background-color: white;
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+.promo a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: white;
+    color: #33691e;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1b3a2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
